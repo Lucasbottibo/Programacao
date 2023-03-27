@@ -49,3 +49,18 @@ a{
     background-color: rgb(46, 44, 44);
 
 }
+
+/*Fazendo o corpo do site*/
+
+.flex{
+    min-height: 100vh;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+
+}
+/*ajustando o tamanho da imagem */
+.imagem{
+    width: 400px;
+    height: auto;
+}

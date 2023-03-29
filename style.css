@@ -54,7 +54,7 @@ a{
 
 .flex{
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: white;
     display: flex;
     flex-direction: column;
 
@@ -63,4 +63,19 @@ a{
 .imagem{
     width: 400px;
     height: auto;
+}
+
+/* ajustando os itens da oagina */
+
+.item{
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: flex-start;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.paragrafo{
+    padding: 10px;
+    text-align: justify;
 }
